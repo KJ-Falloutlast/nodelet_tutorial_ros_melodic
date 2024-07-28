@@ -31,8 +31,3 @@ Simple example of ROS nodelet.
 2. Load nodelet class to nodelet manager
   * `rosrun nodelet nodelet load <PKG_NAME>/<NODELETCLASS_NAME> <MANAGER_NAME>`
   * ex.: `rosrun nodelet nodelet load sample_nodelet/SampleNodeletClass sample_nodelet_manager`
-
-## Author
-
-[@cryborg21](https://github.com/cryborg21)  
-Copyright (c) 2016 @cryborg21

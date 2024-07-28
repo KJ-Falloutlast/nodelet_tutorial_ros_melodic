@@ -1,9 +1,4 @@
-/*
- * sample_nodelet_class2.h
- *
- *  Created on: 2016/09/18
- *      Author: cryborg21
- */
+
 #ifndef SAMPLE_NODELET_CLASS_SRC_SAMPLE_NODELET_CLASS2_H_
 #define SAMPLE_NODELET_CLASS_SRC_SAMPLE_NODELET_CLASS2_H_
 #include <nodelet/nodelet.h>
