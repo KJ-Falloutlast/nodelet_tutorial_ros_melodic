@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package>
+  <name>sample_nodelet</name>
+  <version>0.1.0</version>
+  <description>Simple example of ROS nodelet</description>
+
+  <maintainer email="falloutlast888@gmail.com">KJ-Falloutlast</maintainer>
+
+  <license>BSD</license>
+
+  <url type="website">https://github.com/KJ-Falloutlast/sample_nodelet</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>nodelet</build_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>nodelet</run_depend>
+
+  <!-- to load nodelet -->
+  <export>
+    <nodelet plugin="${prefix}/sample_nodelet.xml" />
+  </export>
+</package>
